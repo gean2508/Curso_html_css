@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(cab.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    
+    display:flex;
+    justify-content: center;
+    color:white;
+}
+.titulo a{
+    color: #056fff;
+    text-decoration: none;
+}
+.titulo,.seguirme strong{
+    color:red;
+}
+
+.seguirme{
+    
+    display:flex;
+    justify-content: center;
+    color:white;
+}
+.social{
+    
+    justify-content: center;
+    display:flex;
+}
+.social-link{
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: white;
+    border-radius:15px;
+    
+}
+.social-link.github{
+    background-image: url(github.png);
+    border-radius:25px;
+}
+.social-link.insta{
+    background-image: url(insta.png);
+}
+
+.container{
+    
+    margin:0;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.gif{
+    
+    width:300px;
+    height: 300px;
+    margin:10px;
+    padding:10px;
+    display:inherit;
+    border-radius: 30px;
+    
+
+
+}
