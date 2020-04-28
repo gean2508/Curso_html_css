@@ -1,0 +1,98 @@
+html, body{
+    padding:0;
+    margin:0;
+    background-color:#1b262c;
+    font-size: 12px;
+    font-style:Helvetica;
+}
+/* variables */
+:root{
+--padding:20px;
+--color:#056fff;
+}
+/* final de las variables */
+/* 7acc2d */
+nav{
+    display:flex;
+    background-color:var(--color);
+    padding:10px;
+    color:white;
+    justify-content:space-between;
+    align-items:center;
+    
+    
+}
+
+nav ul{
+    display:flex;
+    
+}
+nav li{
+    
+    list-style:none;
+}
+nav li a{
+    color:#000000;
+    text-decoration:none;
+    padding-left:var(--padding);
+}
+nav  li a:hover{
+    color:white;
+}
+
+/* main section------------------------------------- */
+.main_section{
+    text-align: center;
+    padding: 15%;
+}
+.azul{
+    color:#056fff;
+}
+
+.products{
+    background-image: url("../venta_gatos/img/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;  
+    padding:15%;
+    display:flex;
+}
+.product{
+    /* border:1px solid red; */
+    padding:10px;
+    margin-top:-350px;
+    
+}
+.product .content{
+    padding:var(--padding);
+    /* border:1px solid purple; */
+    background:#ffffff;
+    padding:15px;
+    box-shadow:0 0 2px #1b262c;
+    border-radius:10px;
+    
+   
+    
+}
+
+
+.img-content{
+    text-align: center;
+}
+.main-button{
+    
+    border-radius:3px;
+    color:#000000;
+    background-color:#056fff;
+    /* box-shadow: 0 0 2px black; */
+    width:100%;
+    padding:10px;
+    font-size:12px;
+    border:0;
+    
+    
+}
+.main-button:hover{
+    background:#0e3f83;
+    cursor: pointer;;
+}
