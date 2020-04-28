@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    background:rgb(46, 57, 73);
+}
+/* variables */
+:root{
+    --color-rosita:#d37575;
+}
+/* inicio nav ---------------------------- */
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: var(--color-rosita);
+    padding:10px;
+    align-items: center;
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    margin-left: 20px;
+}
+nav a:hover{
+    color: gray;
+    font-weight: 600;
+
+}
+/* fin del navbar---------------------------------- */
+
+/* main-section start here----------------------- */
+.main-section{
+    /* border:1px solid red; */
+    height: 200px;
+    align-items: center;
+    display: flex;
+    margin:0 50px;
+    justify-content: space-between;
+    padding:10px;
+}
+.main-section strong{
+    color: var(--color-rosita);
+    /* text-transform: uppercase; */
+}
+.main-section img{
+    height: 200px;
+}
+/* final del main-section ---------------*/
+
+
+/* inicio de los products------------ */
+.products{
+    /* border:1px solid purple; */
+    height: 1000px;
+    background-image: url(./img/curve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 150px 0px;
+    display:flex;
+    justify-content: center;
+}
+.product{
+    padding: 20px 0 0;
+    height: 350px;
+    width: 350px;
+    margin: -110px 40px;
+    justify-content: center;
+    background-color: #e7e8e9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    
+
+}
+.button-buy{
+    background-color: var(--color-rosita);
+    border:0;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 0 4px #493939;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.button-buy:hover{
+    background-color: #db9292 ;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 0 6px #493939;
+}
+
+/* final de products------------------- */
